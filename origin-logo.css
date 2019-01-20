@@ -1,0 +1,9 @@
+.navbar-origin-logo {
+    background-image: url(./imgs/ea-origin-logo.png);
+    background-repeat: no-repeat;
+    background-size: 120px 60px;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+}
+

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+.hor-rec-item {
+    background-image: url(./imgs/original.jpg);
+    width: calc(50% - 18px);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+}
+
+.hor-rec-item-cap {
+    height: 30%;
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.6);
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+
+.hor-rec-item-cap-content {
+    font-weight: 300;
+    color: white;
+}
+
+.hor-rec-item-cap-content-main {
+    font-size: 1.5em;
+}
+
+.hor-rec-item-cap-art {
+    position: relative;
+    /* flex-grow: 1; */
+    width: 100%;
+    height: 100%;
+}
+
+/* .hor-rec-item-cap-art::after{
+    content: '';
+    display: block;
+    
+} */
+
+.art-img {
+    /* transform: scale(0.4); */
+    width: 70px;
+    position: absolute; 
+    bottom: 10px;
+    left: 50%;
+    margin-left: -30%;
+}

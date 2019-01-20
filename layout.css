@@ -1,0 +1,30 @@
+.wrapper {
+    /* display: grid;
+    grid-template-columns: 1fr 6fr; */
+    display: flex;
+}
+
+.navbar {
+    /* grid-row: 1/3; */
+    background: #1e262c;
+    width: 285px;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+}
+
+.main {
+    flex-grow: 1;
+    background: rgb(237, 241, 242);
+}
+
+.content {
+    background: rgb(237, 241, 242);
+}
+
+.footer {
+    height: 200px;
+    background: #fff;
+}

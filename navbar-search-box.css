@@ -1,0 +1,26 @@
+.navbar-search-box {
+    background: #fff;
+    width: 85%;
+    height: 43px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.navbar-search-box-input {
+    width: 70%;
+    font-size: 1.015em;
+    font-weight: 300;
+    border: none;
+    height: 100%;
+    outline: none;
+}
+
+
+
+.navbar-search-box-icon {
+    /* flex-grow: 0.5; */
+}
