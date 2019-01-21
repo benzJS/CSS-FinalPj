@@ -47,11 +47,6 @@
     font-size: 0.9em;
 }
 
-.navbar-info-item {
-    /* flex-grow: 1; */
-    /* margin-left: 5px; */
-}
-
 .navbar-info-item::before {
     content: '●';
     margin: 0px 5px;
@@ -69,10 +64,12 @@
 .button {
     color: white;
     text-decoration: none;
+    font-size: 0.9em;
+    font-weight: 300;
     width: 100%;
-    padding: 15px 0px;
+    padding: 12px 0px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 

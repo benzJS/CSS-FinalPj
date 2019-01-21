@@ -1,0 +1,83 @@
+.vertical-rec-item {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    /* margin-right: 20px; */
+}
+
+.vertical-rec-item-art {
+    width: 100%;
+    height: 211.5px;
+    background: url(./imgs/1068989_LB_231x326_en_US_^_2018-05-15-11-18-11_20b645c9be922992507436cd482128d6dc3e30d6.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-rec-item-art:hover .vertical-rec-item-art-overlay{
+    opacity: 1;    
+}
+
+.vertical-rec-item-art:hover .vertical-rec-item-btn{
+    top: 0;
+}
+
+.vertical-rec-item-footer {
+    width: 90%;
+    height: 130px;
+    font-size: 0.9em;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-rec-item-title {
+    /* height: 50% */
+    margin-top: 5px;
+    flex-grow: 1;
+}
+
+.vertical-rec-item-price {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+    color: #f56c2d;
+}
+
+.vertical-rec-item-art-overlay {
+    width: 85%;
+    height: 100%;
+    background: rgba(3, 3, 3, 0.7);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    transition: all 0.5s;
+}
+
+.vertical-rec-item-btn {
+    position: relative;
+    top: 10px;
+    transition: all 0.5s;
+}
+
+.vertical-rec-item-wishlistadd {
+    font-size: 0.9em;
+    color: #DDD;
+    text-decoration: none;
+}
+
+.vertical-rec-list-items-title {
+    width: 100%;
+    /* margin: 54px 0px; */
+    padding: 0px 45px;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    font-weight: 300;
+}
