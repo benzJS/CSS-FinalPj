@@ -57,8 +57,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
+    border-bottom: 1px solid rgba(237, 241, 242, 0.2);
 }
 
 .button {
@@ -81,7 +82,7 @@
     border: 1px solid rgba(237, 241, 242, 0.8);
 }
 
-.footer-seperate {
+/* .footer-seperate {
     border-bottom: 1px solid rgba(237, 241, 242, 0.2);
     width: 90%;
-}
+} */
