@@ -31,7 +31,7 @@
 }
 
 .store {
-    padding: 15px 19px;
+    /* padding: 15px 19px; */
     border-left: 2px solid #f56c2d;
     background: rgba(237, 241, 242, 0.1);
 }
@@ -81,8 +81,3 @@
 .register {
     border: 1px solid rgba(237, 241, 242, 0.8);
 }
-
-/* .footer-seperate {
-    border-bottom: 1px solid rgba(237, 241, 242, 0.2);
-    width: 90%;
-} */
