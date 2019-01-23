@@ -33,7 +33,6 @@ for(carouselControl of document.getElementsByClassName('fa-arrow-circle-right'))
 for(carouselControl of document.getElementsByClassName('fa-arrow-circle-left')){
     carouselControl.addEventListener("click", (ev) => {
         var currentTranslateX = document.getElementsByClassName(ev.target.id)[0].style.transform.split(/\(|p/);
-        // tmp = Number(document.getElementsByClassName(ev.target.id)[0].offsetWidth);
         tmp = 0;
         if(currentTranslateX.length > 2) tmp = Number(currentTranslateX[1]) + document.getElementsByClassName(ev.target.id)[0].offsetWidth;
         if(Number(currentTranslateX[1]) === 0) tmp = 0;

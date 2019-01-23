@@ -56,4 +56,11 @@
         width: 100%;
         margin-bottom: 20px;
     }
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-ref + .footer-ref + .footer-ref {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 }
